@@ -23,7 +23,7 @@ public class Task02 {
                 System.out.println("Сумма чисел = " + (num1 + num2 + num3));
                 flag = true;
             } else if (switchMath == 2) {
-                System.out.println("Сумма чисел = " + num1 * num2 * num3);
+                System.out.println("Произведение чисел = " + num1 * num2 * num3);
                 flag = true;
             } else System.out.println("\u001B[31mВы ввели неверную команду.\u001B[0m");
         }
