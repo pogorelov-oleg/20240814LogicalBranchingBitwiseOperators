@@ -13,6 +13,5 @@ public class Task03 {
         String input = sc.next().toLowerCase();
 
         System.out.println(input.equals("земля") ? "Привет, землялин!" : "Привет, инопланетянин!");
-        System.out.println(~101);
     }
 }
